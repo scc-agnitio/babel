@@ -12,3 +12,7 @@
 */
 
 Route::post('/terms/import', 'TermImportController@store');
+
+
+Route::get('/', 'TranslaterController@index');
+Route::get('/translate', 'TranslaterController@show');

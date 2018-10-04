@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\CognitiveTranslator;
+use App\Translates;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +25,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(Translates::class, function ($app) {
+            return new CognitiveTranslator(env('MS_COGNITIVE_KEY'));
+        });
     }
 }
