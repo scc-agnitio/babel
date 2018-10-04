@@ -16,3 +16,8 @@ Route::post('/terms/import', 'TermImportController@store');
 
 Route::get('/', 'TranslaterController@index');
 Route::get('/translate', 'TranslaterController@show');
+// Auth::routes();
+
+Route::get('/home', function() {
+    return view('home');
+});
