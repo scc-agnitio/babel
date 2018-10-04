@@ -1,789 +1,353 @@
-
-
-"≤Cancel≥" = "Cancel";
-
-"≤Ok≥" = "Ok";
-
-"≤Yes≥" = "Yes";
-
-"≤No≥" = "No";
-
-"≤Warning≥" = "Warning";
-
-"≤Error≥" = "Error";
-
-"≤Save≥" = "Save";
-
-"≤SaveAs≥" = "Save as...";
-
-"≤Delete≥" = "Delete";
-
-"≤Reset≥" = "Reset";
-
-"≤Unknown≥" = "Unknown";
-
-"≤UnexpectedError≥" = "Unexpected error";
-
-"≤SearchBar_placeholder≥" = "Search…";
-
-"≤No Name≥" = "No name";
-
-"≤new≥" = "New";
-
-"≤Slide Data≥" = "Slide Data";
-
-"≤Please enter name≥" = "Please enter name";
-
-"≤Global_alertMsg_GenericAppError≥" = "Application error. Please contact support.";
-
-"≤Global_alertTitle_SessionExpiredError≥" = "Session expired";
-
-"≤Global_alertMsg_SessionExpiredError≥" = "It appears that your session has expired. Please sign in again";
-
-"≤Global_alertMsg_MIOSendError_wrongOrganization≥" = "Failure when sending MIO: wrong organisation ID";
-
-"≤Global_alertMsg_MIOSendError≥" = "Failure when sending MIO.";
-
-"≤Global_alertMsg_MIOSendError_collision≥" = "Failure when sending MIO: duplicated identifier.";
-
-"≤Incompatible restore file≥" = "Incompatible restore file";
-
-
-
-"≤No alert≥" = "No alert";
-
-"≤On time≥" = "On time";
-
-"≤15 min≥" = "15 min";
-
-"≤30 min≥" = "30 min";
-
-"≤45 min≥" = "45 min";
-
-"≤1 hour≥" = "1 hour";
-
-"≤2 hours≥" = "2 hours";
-
-"≤3 hours≥" = "3 hours";
-
-"≤4 hours≥" = "4 hours";
-
-"≤1 day≥" = "1 day";
-
-"≤1 week≥" = "1 week";
-
-"≤sec≥" = "sec";
-
-"≤min≥" = "min";
-
-
-
-"≤Standard≥" = "Standard";
-
-"≤Remote≥" = "Remote";
-
-
-
-"≤SideMenuItem_Dashboard≥" = "DASHBOARD";
-
-"≤SideMenuItem_Calls≥" = "CALLS";
-
-"≤SideMenuItem_Content≥" = "CONTENT";
-
-"≤SideMenuItem_Contacts≥" = "CONTACTS";
-
-"≤SideMenuItem_Accounts≥" = "ACCOUNTS";
-
-"≤SideMenuItem_Revealer≥" = "REVEALER";
-
-"≤SideMenuItem_Settings≥" = "SETTINGS";
-
-
-
-"≤Email≥" = "Email";
-
-"≤Address≥" = "Address";
-
-"≤Address2≥" = "Address2";
-
-"≤Address3≥" = "Address3";
-
-"≤Brick≥" = "Brick";
-
-"≤City≥" = "City";
-
-"≤Postal Code≥" = "Postal Code";
-
-"≤Country≥" = "Country";
-
-"≤Geography≥" = "Geography";
-
-"≤URL≥" = "URL";
-
-"≤Main Phone≥" = "Main Phone";
-
-"≤Cell Phone≥" = "Cell Phone";
-
-"≤Accessibility≥" = "Accessibility";
-
-"≤Attitude≥" = "Attitude";
-
-"≤BTTC Day≥" = "BTTC Day";
-
-"≤BTTC Start Time≥" = "BTTC Start Time";
-
-"≤BTTC End Time≥" = "BTTC End Time";
-
-"≤Call Frequency≥" = "Call Frequency";
-
-"≤eDetailing≥" = "eDetailing";
-
-"≤Formal Title≥" = "Formal Title";
-
-"≤Gender≥" = "Gender";
-
-"≤Job Title≥" = "Job Title";
-
-"≤Kind≥" = "Kind";
-
-"≤Primary Specialty≥" = "Primary Specialty";
-
-"≤Selling Stage Value≥" = "Selling Stage Value";
-
-"≤Sorting Field≥" = "Sorting Field";
-
-"≤Speaker≥" = "Speaker";
-
-"≤Speciality≥" = "Speciality";
-
-"≤Targeting Category≥" = "Targeting Category";
-
-
-
-"≤LoginScreen_placeholder_Username≥" = "Username";
-
-"≤LoginScreen_placeholder_Password≥" = "Password";
-
-"≤LoginScreen_btn_SignIn≥" = "Sign in";
-
-"≤LoginScreen_btn_ForgotPassword≥" = "Forgot password";
-
-"≤LoginScreen_label_ShowPasswordCharacters≥" = "Show password characters:";
-
-"≤LoginScreen_label_SaveCredentials≥" = "Save credentials:";
-
-"≤LoginScreen_btn_ChooseOrganization≥" = "Choose";
-
-"≤LoginScreen_label_TechnologyBy≥" = "Technology by";
-
-"≤LoginScreen_alertMsg_WrongCredentialsError≥" = "Username or password was incorrect";
-
-"≤LoginScreen_alertMsg_UnauthorizedError≥" = "You are not authorized to login. ";
-
-"≤LoginScreen_alertMsg_NotConnectedToOrganizationError≥" = "You are not connected to any organization.";
-
-"≤LoginScreen_alertMsg_MissingUserDataInInOfflineModeError≥" = "There was a problem logging you in and cached offline mode is unavailable. Please check your internet connection and try again. ";
-
-"≤LoginScreen_alertMsg_UnknownUserInOfflineModeError≥" = "There was a problem with your username while logging you in and cached offline mode is unavailable. Please try again.";
-
-"≤LoginScreen_alertMsg_WrongPasswordInOfflineModeError≥" = "There was a problem with your password while logging you in and cached offline mode is unavailable. Please try again.";
-
-"≤LoginScreen_alertMsg_UnknownOrganizationInOfflineModeError≥" = "There was a problem with login as organization is unknown and cached offline mode is unavailable. Please try again later.";
-
-"≤LoginScreen_alertMsg_MissingUserDataOnServerError≥" = "There was a problem with login and server authentication. Cached offline mode is unavailable. Please try again.";
-
-"≤LoginScreen_alertMsg_UnknownUserOnServerError≥" = "There was a problem with login and your username. Cached offline mode is unavailable. Please try again later.";
-
-"≤LoginScreen_alertMsg_WrongPasswordOnServerError≥" = "There was problem with login and your password authentication. Cached offline mode is unavailable. Please try again.";
-
-"≤LoginScreen_alertMsg_UnknownOrganizationOnServerError≥" = " There was a problem with login to the organization you belong to. Cached offline mode is unavailable. Please try again.";
-
-"≤LoginScreen_alertTitle_OfflineMode≥" = "You are working in offline mode.";
-
-"≤LoginScreen_alertMsg_AutomaticAuthorizationWrongCredentialsError≥" = "There was a problem and automatic sign in is unavailable as your username and password may have been changed on the server side. Please check your credentials and sign in again.";
-
-"≤LoginScreen_warningMsg_OfflineMode≥" = "Network is unavailable. You are signed in using offline mode. You will be able to use local data but you will not be able to send or receive any data from the server. Once the internet connection is available again you will automatically be switched to online mode.";
-
-"≤LoginScreen_warningMsg_OfflineModeOnServerError≥" = "There was a problem with login to the server. You are now signed in using offline mode. You will be able to use local data but you will not be able to send or receive any data from server. Once the server is available again you will automatically be switched to online mode.";
-
-
-
-"≤LoginScreen_alertTitle_SaveCredentials≥" = "Save credentials";
-
-"≤LoginScreen_confirmationMsg_SaveCredentials≥" = "Saving credentials on a public device is not recommended. Do you still want to store them ?";
-
-"≤LoginScreen_alertBtn_Store≥" = "Store";
-
-
-
-"≤LoginScreen_alertTitle_ForgotPassword≥" = "Forgot password";
-
-"≤LoginScreen_confirmationMsg_ForgotPassword≥" = "You have requested to reset your password. An email with a reset link has been sent to the email registered to your account. ";
-
-"≤LoginScreen_alertMsg_ForgotPasswordSuccess≥" = "Instructions for password reset were sent succesfully.";
-
-"≤LoginScreen_alertMsg_ForgotPasswordError_MissingUsername≥" = "Please enter the username first.";
-
-"≤LoginScreen_alertMsg_ForgotPasswordError_UnknownUsername≥" = "Instructions were not sent. Username is unknown. Please try again with different username or contact support.";
-
-"≤LoginScreen_alertMsg_ForgotPasswordError_ServerError≥" = "Instructions were not sent to given username. There may be a problem on the server side. Please try again. If the problem persists contact support";
-
-
-
-"≤ForcePasswordChangeScreen_label_PasswordChange≥" = "Please change your password";
-
-"≤ForcePasswordChangeScreen_label_OldPassword≥" = "Enter old password";
-
-"≤ForcePasswordChangeScreen_label_NewPassword≥" = "Enter new password";
-
-"≤ForcePasswordChangeScreen_label_NewPasswordRepeat≥" = "Retype new password";
-
-"≤ForcePasswordChangeScreen_btn_ChangePassword≥" = "Change password";
-
-"≤ForcePasswordChangeScreen_btn_Cancel≥" = "Cancel and sign out";
-
-"≤ForcePasswordChangeScreen_alertMsg_PasswordCannotEqualOldOneError≥" = "New password must be different than previous password.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooShortPasswordError≥" = "Password is too short. Minimum length of password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooLongPasswordError≥" = "Password is too long. Maximum length of password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_WrongPasswordError≥" = "The old password doesn't match password stored in the database.";
-
-"≤ForcePasswordChangeScreen_alertMsg_IncorrectRetypedPasswordError≥" = "Passwords are not the same.";
-
-"≤ForcePasswordChangeScreen_alertMsg_PasswordCannotEqualUsernameError≥" = "Password must be different than username.";
-
-"≤ForcePasswordChangeScreen_alertMsg_EmptyRequiredFieldError≥" = "Please ensure all required fields are completed.";
-
-"≤ForcePasswordChangeScreen_alertMsg_UnknownPasswordViolationError≥" = "Unknown password violation. Please change password and try again";
-
-"≤ForcePasswordChangeScreen_alertMsg_UnknownError≥" = "There was an unknown error during password change. Please try to log in with the old password. If the problem persists contact support.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooFewDigitsError≥" = "You provided too few digits. Minimum number of digits in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooFewLowercaseCharactersError≥" = "You provided too few lowercase characters. Minimum number of lowercase characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooFewSpecialCharactersError≥" = "You provided too few special characters. Minimum number of special characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooFewUppercaseCharactersError≥" = "You provided too few uppercase characters. Minimum number of uppercase characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooMuchDigitsError≥" = "You provided too many digits. Maximum number of digits in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooMuchLowercaseCharactersError≥" = "You provided too many lowercase characters. Maximum number of lowercase characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooMuchSpecialCharactersError≥" = "You provided too many special characters. Maximum number of special characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_TooMuchUppercaseCharactersError≥" = "You provided too many uppercase characters. Maximum number of uppercase characters in password is %@.";
-
-"≤ForcePasswordChangeScreen_alertMsg_NotAcceptableCharactersError≥" = "Provided password contains non-acceptable characters: XXXX";
-
-"≤ForcePasswordChangeScreen_label_PasswordViolations≥" = "Your new password violates following rules:";
-
-"≤ForcePasswordChangeScreen_alertMsg_PaswordChangeSuccess≥" = "Your password was changed sucessfully. Please sign in again with your new password.";
-
-
-
-"≤DashboardScreen_title≥" = "Dashboard";
-
-"≤DashboardScreen_label_LetterIndex≥" = "Show:";
-
-"≤DashboardScreen_label_MeetingDetails≥" = "Meeting details:";
-
-"≤DashboardScreen_label_AddCall≥" = "Add call/meeting";
-
-"≤DashboardScreen_confirmMsg_DeleteActivity≥" = "Delete activity?";
-
-"≤DashboardScreen_alertTitle_RemoteCall≥" = "Remote call";
-
-"≤DashboardScreen_errorTitle_RemoteCall≥" = "Remote call not planned";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendSuccess≥" = "Remote call was sent successfully";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendMissingContentError≥" = "There is no content attached to the remote call";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendMissingContactsError≥" = "To plan a remote call, you must have at least one contact.";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendTooManyAccountsError≥" = "Remote call cannot have accounts attached";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendInvalidContentTypeError≥" = "Content type is not allowed.";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendFailureTitle≥" = "Unable to send a remote call: %@";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendFailure≥" = "Failure sending remote call with name: %@";
-
-
-
-"≤DashboardScreen_alertMsg_RemoteCallSendFailureMissingChannel≥" = "This content is not available for use in remote calls";
-
-"≤DashboardScreen_alertMsg_RemoteCallSendFailureOffline≥" = "You need to be online to plan a remote call.";
-
-"≤DashboardScreen_alertMsg_CallRequirementsNotMet≥" = "Cannot launch call. Requirements are not met. Please check the calls details.";
-
-"DashbordView_RemoteCall_ContentHasNoRemoteTag" = "This content is not available for use in remote calls.";
-
-"DashboardView_RemoteCall_InvalidData" = "Remote call update failed, invalid data.";
-
-"DashboardView_RemoteCall_AccountsForbidden" = "Remote call update failed, forbidden account.";
-
-"DashboardView_RemoteCall_NoContactAccess" = "Remote call update failed, no contact access.";
-
-"DashboardView_RemoteCall_NoContentAccess" = "Remote call update failed, no content access.";
-
-"DashboardView_RemoteCall_InconsitentContacts" = "Contact not available anymore, please synchronize your data.";
-
-"DashboardView_RemoteCall_InconsitentContent" = "Content not available anymore, please synchronize your data.";
-
-"DashboardView_RemoteCall_ContentNotBroadcasted" = "Remote call update failed, content not broadcasted.";
-
-"DashboardView_RemoteCall_InvalidContentType" = "Remote call update failed, content type not allowed.";
-
-"DashboardView_RemoteCall_UpdateError" = "Error updating remote call. Please try again later.";
-
-"DashboardView_RemoteCall_PdfVersionNotAvailable" = "PDF version of this content is not available.";
-
-
-
-"≤RemoteCall_alertMsg_DeleteFailure≥" = "Error deleting remote call. Please try again later.";
-
-"≤RemoteCall_alertMsg_UpdateFailure≥" = "Error updating remote call. Please try again later.";
-
-"≤RemoteCall_alertMsg_UpdatedWithServerVersion≥" = "Remote call was updated to newer version. Please repeat your last action.";
-
-"≤RemoteCall_alertMsg_InvitationSendFailure≥" = "Error sending invitation.";
-
-
-
-"≤CallsScreen_title≥" = "Calls";
-
-
-"≤Week %d : %@ - %@≥" = "Week %1$d : %2$@ - %3$@";
-
-
-
-"≤ContentScreen_title≥" = "Content";
-
-"engager_content_download_offline_error_message" = "Your device has lost its internet connection. Download will recommence once internet connection is reestablished.";
-
-"IsOnMobileNetwork" = "Download of content on mobile network is disabled for your user. Please contact your Rainmaker  admin";
-
-"UserDataSynchronizationCancelledMobileConnection" = "Synchronization on mobile network is disabled for your user. Please contact your Rainmaker  admin";
-
-
-
-"≤ContactsScreen_title≥" = "Contacts";
-
-
-
-"≤AccountsScreen_title≥" = "Accounts";
-
-
-
-"≤RevealerScreen_title≥" = "Revealer ";
-
-
-
-"≤SettingsScreen_title≥" = "Settings";
-
-"≤SettingsScreen_Support≥" = "Support";
-
-"≤SettingsScreen_Support_modalTitle_Info≥" = "Support information";
-
-"≤SettingsScreen_Support_label_PhoneNumber≥" = "Phone number:";
-
-"≤SettingsScreen_Support_label_EmailAddress≥" = "Email address:";
-
-"≤SettingsScreen_Support_label_AdditionalInfo≥" = "Additional information:";
-
-"≤SettingsScreen_Manual≥" = "User manual";
-
-"≤SettingsScreen_Manual_Download_Error≥" = "Error downloading manual. This feature requires internet access";
-
-"≤SettingsScreen_Manual_NotAvailable≥" = "No manual available.";
-
-"≤SettingsScreen_Session≥" = "Session";
-
-"≤SettingsScreen_Session_SignOut≥" = "Sign out";
-
-"≤SettingsScreen_Session_confirmationMsg_SignOut≥" = "Are you sure you want to sign out ?";
-
-"≤SettingsScreen_General≥" = "General";
-
-"≤SettingsScreen_General_ResetData≥" = "Reset all data";
-
-"≤SettingsScreen_General_ResetData_confirmationMsg_Reset≥" = "Are you sure you want to reset all data ?";
-
-"≤SettingsScreen_Backup≥" = "Backup";
-
-"≤SettingsScreen_Backup_SaveBackup≥" = "Save backup";
-
-"≤SettingsScreen_Backup_SaveBackup_promptMsg_BackupName≥" = "Please provide a name for your backup";
-
-"≤SettingsScreen_Backup_SaveBackup_alertMsg_EmptyName≥" = "Name cannot be empty";
-
-"≤SettingsScreen_Backup_SaveBackupError_UploadError≥" = "Error when uploading backup. Try again later.";
-
-"≤SettingsScreen_Backup_RestoreBackup≥" = "Restore backup";
-
-"≤SettingsScreen_Backup_RestoreBackup_confirmationMsg_Restore≥" = "Are you sure you want to restore your settings to %@";
-
-"≤SettingsScreen_About≥" = "About";
-
-"≤SettingsScreen_About_OrganizationName≥" = "Organization name:";
-
-"≤SettingsScreen_About_Username≥" = "User name:";
-
-"≤SettingsScreen_About_Engager≥" = "Engager:";
-
-"≤SettingsScreen_About_iOS≥" = "iOS:";
-
-"SettingsScreen_Sync_Label" = "Synchronisation";
-
-"SettingsScreen_Sync_NextSyncDate_Label" = "Next Sync";
-
-"SettingsScreen_Sync_LastSyncDate_Label" = "Last Sync";
-
-"SettingsScreen_Sync_LastSyncStatus_Label" = "Status";
-
-"SettingsScreen_Sync_LastSyncStatus_SyncFailed" = "Unable to sync";
-
-"SettingsScreen_Sync_LastSyncStatus_UpToDate" = "Up to date";
-
-"SettingsScreen_Sync_LastSyncStatus_InProgress" = "In progress";
-
-"SettingsScreen_Sync_LastSyncStatus_UpdatedFormat" = "Updated %@";
-
-"SettingsScreen_Sync_LastSyncStatus_ContentAssetsAvailableFormat" = "%@ presentation(s) available for download";
-
-"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Contacts" = "Contacts";
-
-"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Accounts" = "Accounts";
-
-"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Calls" = "Calls";
-
-
-
-"≤CallDetailsScreen_title≥" = "Call details";
-
-"≤CallFieldsScreen_title≥" = "Call fields";
-
-"≤CallDetailsSegmented_title≥" = "Call details";
-
-"≤CallFieldsSegmented_title≥" = "Call fields";
-
-"≤CallDetailsScreen_RemoteCallInvitations_SwitchLabel≥" = "Send update to attendees?";
-
-
-
-"≤Title≥" = "Title";
-
-"≤Description≥" = "Description";
-
-"≤Location≥" = "Location";
-
-"≤Objective≥" = "Objective";
-
-"≤Notes≥" = "Notes";
-
-
-
-
-"≤engager_callStartNotification_future_alertMessageFormat≥" = "Your call will start in %@";
-
-
-"≤engager_callStartNotification_now_alertMessage≥" = "Your call starts now";
-
-
-
-"≤Loading list of files≥" = "Loading list of files";
-
-"≤Downloading≥" = "Downloading";
-
-"≤Download cancelled≥" = "Download cancelled";
-
-"≤Download complete≥" = "Download complete";
-
-"≤Download stopped≥" = "Download stopped";
-
-"≤Updating≥" = "Updating";
-
-"≤Sync started...≥" = "Sync started...";
-
-"≤Stopping...≥" = "Stopping...";
-
-"≤Finished≥" = "Finished";
-
-
-
-"≤LaunchpadScreen_title≥" = "Launchpad";
-
-"≤LaunchpadScreen_EditContents_title≥" = "Edit content";
-
-
-
-"≤SessionsScreen_title≥" = "Sessions";
-
-
-
-"≤FiltersScreen_confirmMsg_WorkspaceOverwrite≥" = "Do you want to overwrite %@?";
-
-"≤FiltersScreen_confirmMsg_Reset≥" = "Do you want to reset?";
-
-"≤Filter name≥" = "Filter name";
-
-"≤This name already exists≥" = "This name already exists";
-
-"≤Unsaved≥" = "Unsaved";
-
-"≤FiltersScreen_placeholder_FilterName≥" = "(name of filter)";
-
-
-
-"≤Permissions_alertTitle_PermissionsChange≥" = "Permissions changed";
-
-"≤Permissions_alertMsg_PermissionsChange≥" = "It appears that your permissions have changed. You need to sign in again";
-
-
-
-"engager_global_cancel" = "Cancel";
-
-"engager_global_close" = "Close";
-
-"engager_global_ok" = "Ok";
-
-"offline_mode_alert_title" = "Offline mode";
-
-"offline_mode_alert_message" = "Not available in offline mode";
-
-
-
-"dashboard_brokenData_alertTitle" = "Outdated call data detected";
-
-"dashboard_brokenData_alertMessage" = "During the upgrade of the Engager , %lu\U00A0unrecoverable calls were detected. The affected calls were created with an older version of Engager  and it was not possible to upgrade them.\n\nNo recorded data has been lost, but the invalid calls have been cleared from your device. If the calls were created or modified locally they will have to be created again. If they were part of planned calls from a CRM system, no further action is required.\n\nWe apologize for the inconvenience this may cause.";
-
-"dashboard_noApprovedEmailContentConsent_alertTitle" = "Consent not given";
-
-"dashboard_noApprovedEmailContentConsent_alertMessage" = "At least one of the selected contacts has not got given their consent to receive email. Please reselect";
-
-"dashboard_noContactsForApprovedEmailContent_alertTitle" = "You have not selected any contacts";
-
-"dashboard_noContactsForApprovedEmailContent_alertMessage" = "You need to select the contacts you want to send email to";
-
-
-
-"engager_callFields_external_openButton" = "Open";
-
-"engager_callFields_external_waitForCompletion_alertMessage" = "Website interaction is not completed yet, are you sure you want to end interaction?";
-
-
-"engager_callFields_external_waitForCompletion_yesButton" = "Yes";
-
-
-"engager_callFields_external_waitForCompletion_noButton" = "No";
-
-
-"engager_callFields_external_loadingError_alertTitle" = "An unexpected error occurred";
-
-
-"engager_callFields_external_loadingError_alertMessage" = "Error code: %@";
-
-"engager_callFields_external_secureConnectionFailedError_alertTitle" = "Error";
-
-"engager_callFields_external_secureConnectionFailedError_alertMessage" = "An SSL error has occurred and a secure connection to the server cannot be made (Error code: -1200).";
-
-
-
-"engager_performedCalls_events" = "Events";
-
-"engager_performedSync_alertTitle" = "Error";
-
-"engager_performedSync_alertMessage" = "Could not load activity details from Mobilizer";
-
-"engager_performedCalls_sentLabel" = "Sent";
-
-"engager_performedCalls_openedLabel" = "Opened";
-
-
-
-"hcp_dashboard_noSharables_alertTitle" = "Sharing";
-
-"hcp_dashboard_noSharables_alertMessage" = "No items to share";
-
-"hcp_dashboard_noTemplates_alertTitle" = "Templates";
-
-"hcp_dashboard_noTemplates_alertMessage" = "No provisioning templates";
-
-"engager_dashboard_approvedEmailPreview_notDownloaded_alertTitle" = "Approved E-mail";
-
-
-
-"engager_dashboard_approvedEmailPreview_notDownloaded_alertMessage" = "%@ has not yet been downloaded";
-
-"engager_agreements_firstAcceptButton" = "Accept EULA";
-
-"engager_agreements_acceptBothButton" = "Accept EULA and Privacy statement";
-
-"engager_agreements_secondAcceptButton" = "Accept Privacy statement";
-
-"engager_agreements_firstReadButton" = "Read - EULA";
-
-"engager_agreements_secondReadButton" = "Read - Privacy statement";
-
-"engager_agreements_notAccepted_alertTitle" = "Agreements have not been accepted";
-
-"engager_agreements_notAccepted_alertMessage" = "You need to log in again.";
-
-
-
-"engager_presentation_back" = "Back";
-
-"engager_presentation_share" = "Share";
-
-"engager_presentation_loading" = "Loading...";
-
-"engager_presentation_addPresentations" = "Add presentations";
-
-"engager_presentation_hide" = "Hide";
-
-
-"engager_presentation_loadingError_alertTitle" = "Error while loading presentation resource(s).";
-
-
-"engager_presentation_loadingError_alertMessage" = "Please synchronize presentation files and try again.";
-
-"engager_presentation_name_prefix" = "Presentation:";
-
-"engager_presentation_loadingSecurityError_alertTitle" = "Invalid URL";
-
-"engager_presentation_loadingSecurityError_alertMessage" = "iOS 9 and above only supports https";
-
-
-
-
-"engager_prov_summary_message_defaultEmailMessage" = "Click the link to view your Sharedoc content %%token%%";
-
-
-"engager_prov_summary_message_defaultSmsMessage" = "Click the link to view your Sharedoc  content %%token%%";
-
-
-"engager_prov_summary_message_defaultEmailSubject" = "Your Sharedoc  content is now available to you";
-
-"engager_prov_summary_message_validation_noLinkToContent_alertMessage" = "The message must contain link to content";
-
-"engager_prov_summary_message_validation_noEmailSubject_alertMessage" = "The message must have a subject";
-
-"engager_prov_summary_message_validation_alertTitle" = "Error";
-
-"engager_prov_summary_message_validation_noPossibilityToClose_alertMessage" = "You can't go back because:";
-
-"engager_prov_summary_message_validation_noFrom_alertMessage" = "The from field cannot be empty";
-
-"engager_prov_summary_message_validation_noGreetings_alertMessage" = "The salutation field cannot be empty";
-
-"engager_prov_summary_message_tokenButton_linkToContent" = "Link to content";
-
-"engager_prov_summary_message_subject_header" = "Email subject:";
-
-"engager_prov_summary_message_email_header" = "Message:";
-
-"engager_prov_summary_message_sms_header" = "Message:";
-
-"engager_prov_summary_message_from_header" = "From:";
-
-"engager_prov_summary_message_greetings_header" = "Salutation:";
-
-"engager_prov_select_slides" = "Slides";
-
-"engager_prov_select_chapters" = "Chapters";
-
-"engager_prov_select_topics" = "Topics";
-
-"engager_prov_select_noContent" = "Content has no %@ that are shareable";
-
-"engager_prov_summary_editMessage" = "Edit message";
-
-"engager_prov_summary_email_placeholder" = "Add email address";
-
-"engager_prov_summary_sms_placeholder" = "Add phone number with + and country code";
-
-"engager_prov_summary_documentTitle" = "Document";
-
-"engager_prov_summary_noSelectionForSlides" = "You didn't select any slides";
-
-"engager_prov_summary_noSelectionForTopics" = "You didn't select any topics";
-
-"engager_prov_summary_noSelectionForStoryboards" = "You didn't select any chapters";
-
-"engager_prov_summary_noRecipients" = "You didn't add any recipients";
-
-"engager_prov_summary_recipients" = "Recipients";
-
-"engager_prov_summary_deliverBy" = "Deliver by";
-
-"engager_prov_summary_email" = "Email";
-
-"engager_prov_summary_sms" = "SMS";
-
-"engager_prov_summary_selectTemplate" = "Select template";
-
-"engager_prov_summary_template_title" = "Templates";
-
-"engager_prov_summary_template_validation_noTemplate_alertTitle" = "Error";
-
-"engager_prov_summary_template_validation_noTemplate_alertMessage" = "You can't go back because you need to select a template.";
-
-"hcp_provisioning_error" = "Error sharing content. Please try again later";
-
-"hcp_provisioning_added_to_queue" = "You're in offline mode. Content will automatically be shared during next synchronization";
-
-"hcp_provisioning_dataLost_alertTitle" = "Close";
-
-"hcp_provisioning_dataLost_alertMessage" = "All selections will be lost. Do you want to close?";
-
-
-
-"engager_remote_micAccess_alertTitle" = "Microphone access";
-
-"engager_remote_micAccess_alertMessage" = "Allow access to your microphone to start audio remote call.";
-
-"engager_remote_micAccess_confirmButton" = "Enable microphone access";
-
-
-
-"engager_emailPreview_step1" = "STEP 1";
-
-"engager_emailPreview_step2" = "STEP 2";
-
-"engager_emailPreview_step1_title" = "Step 1 | Select contact(s) you wish to send an e-mail to";
-
-"engager_emailPreview_step2_title" = "Step 2 | Preview & send e-mail";
-
-"engager_emailPreview_preview_title" = "Preview | %@";
-
-"engager_emailPreview_closeAlert_title" = "Are you sure you want to exit?";
-
-"engager_emailPreview_closeAlert_message" = "You have not sent the email. Would you still want to exit this view?";
-
-"engager_emailPreview_nextStep_button" = "NEXT STEP";
-
-"engager_emailPreview_send_button" = "SEND E-MAIL";
-
-"engager_emailPreview_sent_button" = "E-MAIL SENT";
-
-"engager_emailPreview_filtersTitle" = "Filters";
-
-"engager_emailPreview_step1Details_selectedContact" = "Contact selected";
-
-"engager_emailPreview_step1Details_selectedContacts" = "Contacts selected";
-
-"engager_emailPreview_step2ContentSection_title" = "E-mail content selected to be sent out:";
-
-"engager_emailPreview_step2ContactsSection_title" = "Contact(s) selected to receive e-mail:";
-
-"engager_emailPreview_step2ContentDetails_type" = "E-MAIL";
-
-"engager_emailPreview_step2Details_date" = "Date:";
-
-"engager_emailPreview_step2Details_email" = "Email:";
-
-"engager_emailPreview_step2Details_contact" = "Contact:";
+"≤Cancel≥","Cancel"
+"≤Ok≥","Ok"
+"≤Yes≥","Yes"
+"≤No≥","No"
+"≤Warning≥","Warning"
+"≤Error≥","Error"
+"≤Save≥","Save"
+"≤SaveAs≥","Save as..."
+"≤Delete≥","Delete"
+"≤Reset≥","Reset"
+"≤Unknown≥","Unknown"
+"≤UnexpectedError≥","Unexpected error"
+"≤SearchBar_placeholder≥","Search…"
+"≤No Name≥","No name"
+"≤new≥","New"
+"≤Slide Data≥","Slide Data"
+"≤Please enter name≥","Please enter name"
+"≤Global_alertMsg_GenericAppError≥","Application error. Please contact support."
+"≤Global_alertTitle_SessionExpiredError≥","Session expired"
+"≤Global_alertMsg_SessionExpiredError≥","It appears that your session has expired. Please sign in again"
+"≤Global_alertMsg_MIOSendError_wrongOrganization≥","Failure when sending MIO: wrong organisation ID"
+"≤Global_alertMsg_MIOSendError≥","Failure when sending MIO."
+"≤Global_alertMsg_MIOSendError_collision≥","Failure when sending MIO: duplicated identifier."
+"≤Incompatible restore file≥","Incompatible restore file"
+"≤No alert≥","No alert"
+"≤On time≥","On time"
+"≤15 min≥","15 min"
+"≤30 min≥","30 min"
+"≤45 min≥","45 min"
+"≤1 hour≥","1 hour"
+"≤2 hours≥","2 hours"
+"≤3 hours≥","3 hours"
+"≤4 hours≥","4 hours"
+"≤1 day≥","1 day"
+"≤1 week≥","1 week"
+"≤sec≥","sec"
+"≤min≥","min"
+"≤Standard≥","Standard"
+"≤Remote≥","Remote"
+"≤SideMenuItem_Dashboard≥","DASHBOARD"
+"≤SideMenuItem_Calls≥","CALLS"
+"≤SideMenuItem_Content≥","CONTENT"
+"≤SideMenuItem_Contacts≥","CONTACTS"
+"≤SideMenuItem_Accounts≥","ACCOUNTS"
+"≤SideMenuItem_Revealer≥","REVEALER"
+"≤SideMenuItem_Settings≥","SETTINGS"
+"≤Email≥","Email"
+"≤Address≥","Address"
+"≤Address2≥","Address2"
+"≤Address3≥","Address3"
+"≤Brick≥","Brick"
+"≤City≥","City"
+"≤Postal Code≥","Postal Code"
+"≤Country≥","Country"
+"≤Geography≥","Geography"
+"≤URL≥","URL"
+"≤Main Phone≥","Main Phone"
+"≤Cell Phone≥","Cell Phone"
+"≤Accessibility≥","Accessibility"
+"≤Attitude≥","Attitude"
+"≤BTTC Day≥","BTTC Day"
+"≤BTTC Start Time≥","BTTC Start Time"
+"≤BTTC End Time≥","BTTC End Time"
+"≤Call Frequency≥","Call Frequency"
+"≤eDetailing≥","eDetailing"
+"≤Formal Title≥","Formal Title"
+"≤Gender≥","Gender"
+"≤Job Title≥","Job Title"
+"≤Kind≥","Kind"
+"≤Primary Specialty≥","Primary Specialty"
+"≤Selling Stage Value≥","Selling Stage Value"
+"≤Sorting Field≥","Sorting Field"
+"≤Speaker≥","Speaker"
+"≤Speciality≥","Speciality"
+"≤Targeting Category≥","Targeting Category"
+"≤LoginScreen_placeholder_Username≥","Username"
+"≤LoginScreen_placeholder_Password≥","Password"
+"≤LoginScreen_btn_SignIn≥","Sign in"
+"≤LoginScreen_btn_ForgotPassword≥","Forgot password"
+"≤LoginScreen_label_ShowPasswordCharacters≥","Show password characters:"
+"≤LoginScreen_label_SaveCredentials≥","Save credentials:"
+"≤LoginScreen_btn_ChooseOrganization≥","Choose"
+"≤LoginScreen_label_TechnologyBy≥","Technology by"
+"≤LoginScreen_alertMsg_WrongCredentialsError≥","Username or password was incorrect"
+"≤LoginScreen_alertMsg_UnauthorizedError≥","You are not authorized to login. "
+"≤LoginScreen_alertMsg_NotConnectedToOrganizationError≥","You are not connected to any organization."
+"≤LoginScreen_alertMsg_MissingUserDataInInOfflineModeError≥","There was a problem logging you in and cached offline mode is unavailable. Please check your internet connection and try again. "
+"≤LoginScreen_alertMsg_UnknownUserInOfflineModeError≥","There was a problem with your username while logging you in and cached offline mode is unavailable. Please try again."
+"≤LoginScreen_alertMsg_WrongPasswordInOfflineModeError≥","There was a problem with your password while logging you in and cached offline mode is unavailable. Please try again."
+"≤LoginScreen_alertMsg_UnknownOrganizationInOfflineModeError≥","There was a problem with login as organization is unknown and cached offline mode is unavailable. Please try again later."
+"≤LoginScreen_alertMsg_MissingUserDataOnServerError≥","There was a problem with login and server authentication. Cached offline mode is unavailable. Please try again."
+"≤LoginScreen_alertMsg_UnknownUserOnServerError≥","There was a problem with login and your username. Cached offline mode is unavailable. Please try again later."
+"≤LoginScreen_alertMsg_WrongPasswordOnServerError≥","There was problem with login and your password authentication. Cached offline mode is unavailable. Please try again."
+"≤LoginScreen_alertMsg_UnknownOrganizationOnServerError≥"," There was a problem with login to the organization you belong to. Cached offline mode is unavailable. Please try again."
+"≤LoginScreen_alertTitle_OfflineMode≥","You are working in offline mode."
+"≤LoginScreen_alertMsg_AutomaticAuthorizationWrongCredentialsError≥","There was a problem and automatic sign in is unavailable as your username and password may have been changed on the server side. Please check your credentials and sign in again."
+"≤LoginScreen_warningMsg_OfflineMode≥","Network is unavailable. You are signed in using offline mode. You will be able to use local data but you will not be able to send or receive any data from the server. Once the internet connection is available again you will automatically be switched to online mode."
+"≤LoginScreen_warningMsg_OfflineModeOnServerError≥","There was a problem with login to the server. You are now signed in using offline mode. You will be able to use local data but you will not be able to send or receive any data from server. Once the server is available again you will automatically be switched to online mode."
+"≤LoginScreen_alertTitle_SaveCredentials≥","Save credentials"
+"≤LoginScreen_confirmationMsg_SaveCredentials≥","Saving credentials on a public device is not recommended. Do you still want to store them ?"
+"≤LoginScreen_alertBtn_Store≥","Store"
+"≤LoginScreen_alertTitle_ForgotPassword≥","Forgot password"
+"≤LoginScreen_confirmationMsg_ForgotPassword≥","You have requested to reset your password. An email with a reset link has been sent to the email registered to your account. "
+"≤LoginScreen_alertMsg_ForgotPasswordSuccess≥","Instructions for password reset were sent succesfully."
+"≤LoginScreen_alertMsg_ForgotPasswordError_MissingUsername≥","Please enter the username first."
+"≤LoginScreen_alertMsg_ForgotPasswordError_UnknownUsername≥","Instructions were not sent. Username is unknown. Please try again with different username or contact support."
+"≤LoginScreen_alertMsg_ForgotPasswordError_ServerError≥","Instructions were not sent to given username. There may be a problem on the server side. Please try again. If the problem persists contact support"
+"≤ForcePasswordChangeScreen_label_PasswordChange≥","Please change your password"
+"≤ForcePasswordChangeScreen_label_OldPassword≥","Enter old password"
+"≤ForcePasswordChangeScreen_label_NewPassword≥","Enter new password"
+"≤ForcePasswordChangeScreen_label_NewPasswordRepeat≥","Retype new password"
+"≤ForcePasswordChangeScreen_btn_ChangePassword≥","Change password"
+"≤ForcePasswordChangeScreen_btn_Cancel≥","Cancel and sign out"
+"≤ForcePasswordChangeScreen_alertMsg_PasswordCannotEqualOldOneError≥","New password must be different than previous password."
+"≤ForcePasswordChangeScreen_alertMsg_TooShortPasswordError≥","Password is too short. Minimum length of password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooLongPasswordError≥","Password is too long. Maximum length of password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_WrongPasswordError≥","The old password doesn't match password stored in the database."
+"≤ForcePasswordChangeScreen_alertMsg_IncorrectRetypedPasswordError≥","Passwords are not the same."
+"≤ForcePasswordChangeScreen_alertMsg_PasswordCannotEqualUsernameError≥","Password must be different than username."
+"≤ForcePasswordChangeScreen_alertMsg_EmptyRequiredFieldError≥","Please ensure all required fields are completed."
+"≤ForcePasswordChangeScreen_alertMsg_UnknownPasswordViolationError≥","Unknown password violation. Please change password and try again"
+"≤ForcePasswordChangeScreen_alertMsg_UnknownError≥","There was an unknown error during password change. Please try to log in with the old password. If the problem persists contact support."
+"≤ForcePasswordChangeScreen_alertMsg_TooFewDigitsError≥","You provided too few digits. Minimum number of digits in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooFewLowercaseCharactersError≥","You provided too few lowercase characters. Minimum number of lowercase characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooFewSpecialCharactersError≥","You provided too few special characters. Minimum number of special characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooFewUppercaseCharactersError≥","You provided too few uppercase characters. Minimum number of uppercase characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooMuchDigitsError≥","You provided too many digits. Maximum number of digits in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooMuchLowercaseCharactersError≥","You provided too many lowercase characters. Maximum number of lowercase characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooMuchSpecialCharactersError≥","You provided too many special characters. Maximum number of special characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_TooMuchUppercaseCharactersError≥","You provided too many uppercase characters. Maximum number of uppercase characters in password is %@."
+"≤ForcePasswordChangeScreen_alertMsg_NotAcceptableCharactersError≥","Provided password contains non-acceptable characters: XXXX"
+"≤ForcePasswordChangeScreen_label_PasswordViolations≥","Your new password violates following rules:"
+"≤ForcePasswordChangeScreen_alertMsg_PaswordChangeSuccess≥","Your password was changed sucessfully. Please sign in again with your new password."
+"≤DashboardScreen_title≥","Dashboard"
+"≤DashboardScreen_label_LetterIndex≥","Show:"
+"≤DashboardScreen_label_MeetingDetails≥","Meeting details:"
+"≤DashboardScreen_label_AddCall≥","Add call/meeting"
+"≤DashboardScreen_confirmMsg_DeleteActivity≥","Delete activity?"
+"≤DashboardScreen_alertTitle_RemoteCall≥","Remote call"
+"≤DashboardScreen_errorTitle_RemoteCall≥","Remote call not planned"
+"≤DashboardScreen_alertMsg_RemoteCallSendSuccess≥","Remote call was sent successfully"
+"≤DashboardScreen_alertMsg_RemoteCallSendMissingContentError≥","There is no content attached to the remote call"
+"≤DashboardScreen_alertMsg_RemoteCallSendMissingContactsError≥","To plan a remote call, you must have at least one contact."
+"≤DashboardScreen_alertMsg_RemoteCallSendTooManyAccountsError≥","Remote call cannot have accounts attached"
+"≤DashboardScreen_alertMsg_RemoteCallSendInvalidContentTypeError≥","Content type is not allowed."
+"≤DashboardScreen_alertMsg_RemoteCallSendFailureTitle≥","Unable to send a remote call: %@"
+"≤DashboardScreen_alertMsg_RemoteCallSendFailure≥","Failure sending remote call with name: %@"
+"≤DashboardScreen_alertMsg_RemoteCallSendFailureMissingChannel≥","This content is not available for use in remote calls"
+"≤DashboardScreen_alertMsg_RemoteCallSendFailureOffline≥","You need to be online to plan a remote call."
+"≤DashboardScreen_alertMsg_CallRequirementsNotMet≥","Cannot launch call. Requirements are not met. Please check the calls details."
+"DashbordView_RemoteCall_ContentHasNoRemoteTag","This content is not available for use in remote calls."
+"DashboardView_RemoteCall_InvalidData","Remote call update failed, invalid data."
+"DashboardView_RemoteCall_AccountsForbidden","Remote call update failed, forbidden account."
+"DashboardView_RemoteCall_NoContactAccess","Remote call update failed, no contact access."
+"DashboardView_RemoteCall_NoContentAccess","Remote call update failed, no content access."
+"DashboardView_RemoteCall_InconsitentContacts","Contact not available anymore, please synchronize your data."
+"DashboardView_RemoteCall_InconsitentContent","Content not available anymore, please synchronize your data."
+"DashboardView_RemoteCall_ContentNotBroadcasted","Remote call update failed, content not broadcasted."
+"DashboardView_RemoteCall_InvalidContentType","Remote call update failed, content type not allowed."
+"DashboardView_RemoteCall_UpdateError","Error updating remote call. Please try again later."
+"DashboardView_RemoteCall_PdfVersionNotAvailable","PDF version of this content is not available."
+"≤RemoteCall_alertMsg_DeleteFailure≥","Error deleting remote call. Please try again later."
+"≤RemoteCall_alertMsg_UpdateFailure≥","Error updating remote call. Please try again later."
+"≤RemoteCall_alertMsg_UpdatedWithServerVersion≥","Remote call was updated to newer version. Please repeat your last action."
+"≤RemoteCall_alertMsg_InvitationSendFailure≥","Error sending invitation."
+"≤CallsScreen_title≥","Calls"
+"≤Week %d : %@ - %@≥","Week %1$d : %2$@ - %3$@"
+"≤ContentScreen_title≥","Content"
+"engager_content_download_offline_error_message","Your device has lost its internet connection. Download will recommence once internet connection is reestablished."
+"IsOnMobileNetwork","Download of content on mobile network is disabled for your user. Please contact your Rainmaker  admin"
+"UserDataSynchronizationCancelledMobileConnection","Synchronization on mobile network is disabled for your user. Please contact your Rainmaker  admin"
+"≤ContactsScreen_title≥","Contacts"
+"≤AccountsScreen_title≥","Accounts"
+"≤RevealerScreen_title≥","Revealer "
+"≤SettingsScreen_title≥","Settings"
+"≤SettingsScreen_Support≥","Support"
+"≤SettingsScreen_Support_modalTitle_Info≥","Support information"
+"≤SettingsScreen_Support_label_PhoneNumber≥","Phone number:"
+"≤SettingsScreen_Support_label_EmailAddress≥","Email address:"
+"≤SettingsScreen_Support_label_AdditionalInfo≥","Additional information:"
+"≤SettingsScreen_Manual≥","User manual"
+"≤SettingsScreen_Manual_Download_Error≥","Error downloading manual. This feature requires internet access"
+"≤SettingsScreen_Manual_NotAvailable≥","No manual available."
+"≤SettingsScreen_Session≥","Session"
+"≤SettingsScreen_Session_SignOut≥","Sign out"
+"≤SettingsScreen_Session_confirmationMsg_SignOut≥","Are you sure you want to sign out ?"
+"≤SettingsScreen_General≥","General"
+"≤SettingsScreen_General_ResetData≥","Reset all data"
+"≤SettingsScreen_General_ResetData_confirmationMsg_Reset≥","Are you sure you want to reset all data ?"
+"≤SettingsScreen_Backup≥","Backup"
+"≤SettingsScreen_Backup_SaveBackup≥","Save backup"
+"≤SettingsScreen_Backup_SaveBackup_promptMsg_BackupName≥","Please provide a name for your backup"
+"≤SettingsScreen_Backup_SaveBackup_alertMsg_EmptyName≥","Name cannot be empty"
+"≤SettingsScreen_Backup_SaveBackupError_UploadError≥","Error when uploading backup. Try again later."
+"≤SettingsScreen_Backup_RestoreBackup≥","Restore backup"
+"≤SettingsScreen_Backup_RestoreBackup_confirmationMsg_Restore≥","Are you sure you want to restore your settings to %@"
+"≤SettingsScreen_About≥","About"
+"≤SettingsScreen_About_OrganizationName≥","Organization name:"
+"≤SettingsScreen_About_Username≥","User name:"
+"≤SettingsScreen_About_Engager≥","Engager:"
+"≤SettingsScreen_About_iOS≥","iOS:"
+"SettingsScreen_Sync_Label","Synchronisation"
+"SettingsScreen_Sync_NextSyncDate_Label","Next Sync"
+"SettingsScreen_Sync_LastSyncDate_Label","Last Sync"
+"SettingsScreen_Sync_LastSyncStatus_Label","Status"
+"SettingsScreen_Sync_LastSyncStatus_SyncFailed","Unable to sync"
+"SettingsScreen_Sync_LastSyncStatus_UpToDate","Up to date"
+"SettingsScreen_Sync_LastSyncStatus_InProgress","In progress"
+"SettingsScreen_Sync_LastSyncStatus_UpdatedFormat","Updated %@"
+"SettingsScreen_Sync_LastSyncStatus_ContentAssetsAvailableFormat","%@ presentation(s) available for download"
+"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Contacts","Contacts"
+"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Accounts","Accounts"
+"SettingsScreen_Sync_LastSyncStatus_UpdatedItem_Calls","Calls"
+"≤CallDetailsScreen_title≥","Call details"
+"≤CallFieldsScreen_title≥","Call fields"
+"≤CallDetailsSegmented_title≥","Call details"
+"≤CallFieldsSegmented_title≥","Call fields"
+"≤CallDetailsScreen_RemoteCallInvitations_SwitchLabel≥","Send update to attendees?"
+"≤Title≥","Title"
+"≤Description≥","Description"
+"≤Location≥","Location"
+"≤Objective≥","Objective"
+"≤Notes≥","Notes"
+"≤engager_callStartNotification_future_alertMessageFormat≥","Your call will start in %@"
+"≤engager_callStartNotification_now_alertMessage≥","Your call starts now"
+"≤Loading list of files≥","Loading list of files"
+"≤Downloading≥","Downloading"
+"≤Download cancelled≥","Download cancelled"
+"≤Download complete≥","Download complete"
+"≤Download stopped≥","Download stopped"
+"≤Updating≥","Updating"
+"≤Sync started...≥","Sync started..."
+"≤Stopping...≥","Stopping..."
+"≤Finished≥","Finished"
+"≤LaunchpadScreen_title≥","Launchpad"
+"≤LaunchpadScreen_EditContents_title≥","Edit content"
+"≤SessionsScreen_title≥","Sessions"
+"≤FiltersScreen_confirmMsg_WorkspaceOverwrite≥","Do you want to overwrite %@?"
+"≤FiltersScreen_confirmMsg_Reset≥","Do you want to reset?"
+"≤Filter name≥","Filter name"
+"≤This name already exists≥","This name already exists"
+"≤Unsaved≥","Unsaved"
+"≤FiltersScreen_placeholder_FilterName≥","(name of filter)"
+"≤Permissions_alertTitle_PermissionsChange≥","Permissions changed"
+"≤Permissions_alertMsg_PermissionsChange≥","It appears that your permissions have changed. You need to sign in again"
+"engager_global_cancel","Cancel"
+"engager_global_close","Close"
+"engager_global_ok","Ok"
+"offline_mode_alert_title","Offline mode"
+"offline_mode_alert_message","Not available in offline mode"
+"dashboard_brokenData_alertTitle","Outdated call data detected"
+"dashboard_brokenData_alertMessage","During the upgrade of the Engager , %lu\U00A0unrecoverable calls were detected. The affected calls were created with an older version of Engager  and it was not possible to upgrade them.\n\nNo recorded data has been lost, but the invalid calls have been cleared from your device. If the calls were created or modified locally they will have to be created again. If they were part of planned calls from a CRM system, no further action is required.\n\nWe apologize for the inconvenience this may cause."
+"dashboard_noApprovedEmailContentConsent_alertTitle","Consent not given"
+"dashboard_noApprovedEmailContentConsent_alertMessage","At least one of the selected contacts has not got given their consent to receive email. Please reselect"
+"dashboard_noContactsForApprovedEmailContent_alertTitle","You have not selected any contacts"
+"dashboard_noContactsForApprovedEmailContent_alertMessage","You need to select the contacts you want to send email to"
+"engager_callFields_external_openButton","Open"
+"engager_callFields_external_waitForCompletion_alertMessage","Website interaction is not completed yet, are you sure you want to end interaction?"
+"engager_callFields_external_waitForCompletion_yesButton","Yes"
+"engager_callFields_external_waitForCompletion_noButton","No"
+"engager_callFields_external_loadingError_alertTitle","An unexpected error occurred"
+"engager_callFields_external_loadingError_alertMessage","Error code: %@"
+"engager_callFields_external_secureConnectionFailedError_alertTitle","Error"
+"engager_callFields_external_secureConnectionFailedError_alertMessage","An SSL error has occurred and a secure connection to the server cannot be made (Error code: -1200)."
+"engager_performedCalls_events","Events"
+"engager_performedSync_alertTitle","Error"
+"engager_performedSync_alertMessage","Could not load activity details from Mobilizer"
+"engager_performedCalls_sentLabel","Sent"
+"engager_performedCalls_openedLabel","Opened"
+"hcp_dashboard_noSharables_alertTitle","Sharing"
+"hcp_dashboard_noSharables_alertMessage","No items to share"
+"hcp_dashboard_noTemplates_alertTitle","Templates"
+"hcp_dashboard_noTemplates_alertMessage","No provisioning templates"
+"engager_dashboard_approvedEmailPreview_notDownloaded_alertTitle","Approved E-mail"
+"engager_dashboard_approvedEmailPreview_notDownloaded_alertMessage","%@ has not yet been downloaded"
+"engager_agreements_firstAcceptButton","Accept EULA"
+"engager_agreements_acceptBothButton","Accept EULA and Privacy statement"
+"engager_agreements_secondAcceptButton","Accept Privacy statement"
+"engager_agreements_firstReadButton","Read - EULA"
+"engager_agreements_secondReadButton","Read - Privacy statement"
+"engager_agreements_notAccepted_alertTitle","Agreements have not been accepted"
+"engager_agreements_notAccepted_alertMessage","You need to log in again."
+"engager_presentation_back","Back"
+"engager_presentation_share","Share"
+"engager_presentation_loading","Loading..."
+"engager_presentation_addPresentations","Add presentations"
+"engager_presentation_hide","Hide"
+"engager_presentation_loadingError_alertTitle","Error while loading presentation resource(s)."
+"engager_presentation_loadingError_alertMessage","Please synchronize presentation files and try again."
+"engager_presentation_name_prefix","Presentation:"
+"engager_presentation_loadingSecurityError_alertTitle","Invalid URL"
+"engager_presentation_loadingSecurityError_alertMessage","iOS 9 and above only supports https"
+"engager_prov_summary_message_defaultEmailMessage","Click the link to view your Sharedoc content %%token%%"
+"engager_prov_summary_message_defaultSmsMessage","Click the link to view your Sharedoc  content %%token%%"
+"engager_prov_summary_message_defaultEmailSubject","Your Sharedoc  content is now available to you"
+"engager_prov_summary_message_validation_noLinkToContent_alertMessage","The message must contain link to content"
+"engager_prov_summary_message_validation_noEmailSubject_alertMessage","The message must have a subject"
+"engager_prov_summary_message_validation_alertTitle","Error"
+"engager_prov_summary_message_validation_noPossibilityToClose_alertMessage","You can't go back because:"
+"engager_prov_summary_message_validation_noFrom_alertMessage","The from field cannot be empty"
+"engager_prov_summary_message_validation_noGreetings_alertMessage","The salutation field cannot be empty"
+"engager_prov_summary_message_tokenButton_linkToContent","Link to content"
+"engager_prov_summary_message_subject_header","Email subject:"
+"engager_prov_summary_message_email_header","Message:"
+"engager_prov_summary_message_sms_header","Message:"
+"engager_prov_summary_message_from_header","From:"
+"engager_prov_summary_message_greetings_header","Salutation:"
+"engager_prov_select_slides","Slides"
+"engager_prov_select_chapters","Chapters"
+"engager_prov_select_topics","Topics"
+"engager_prov_select_noContent","Content has no %@ that are shareable"
+"engager_prov_summary_editMessage","Edit message"
+"engager_prov_summary_email_placeholder","Add email address"
+"engager_prov_summary_sms_placeholder","Add phone number with + and country code"
+"engager_prov_summary_documentTitle","Document"
+"engager_prov_summary_noSelectionForSlides","You didn't select any slides"
+"engager_prov_summary_noSelectionForTopics","You didn't select any topics"
+"engager_prov_summary_noSelectionForStoryboards","You didn't select any chapters"
+"engager_prov_summary_noRecipients","You didn't add any recipients"
+"engager_prov_summary_recipients","Recipients"
+"engager_prov_summary_deliverBy","Deliver by"
+"engager_prov_summary_email","Email"
+"engager_prov_summary_sms","SMS"
+"engager_prov_summary_selectTemplate","Select template"
+"engager_prov_summary_template_title","Templates"
+"engager_prov_summary_template_validation_noTemplate_alertTitle","Error"
+"engager_prov_summary_template_validation_noTemplate_alertMessage","You can't go back because you need to select a template."
+"hcp_provisioning_error","Error sharing content. Please try again later"
+"hcp_provisioning_added_to_queue","You're in offline mode. Content will automatically be shared during next synchronization"
+"hcp_provisioning_dataLost_alertTitle","Close"
+"hcp_provisioning_dataLost_alertMessage","All selections will be lost. Do you want to close?"
+"engager_remote_micAccess_alertTitle","Microphone access"
+"engager_remote_micAccess_alertMessage","Allow access to your microphone to start audio remote call."
+"engager_remote_micAccess_confirmButton","Enable microphone access"
+"engager_emailPreview_step1","STEP 1"
+"engager_emailPreview_step2","STEP 2"
+"engager_emailPreview_step1_title","Step 1 | Select contact(s) you wish to send an e-mail to"
+"engager_emailPreview_step2_title","Step 2 | Preview & send e-mail"
+"engager_emailPreview_preview_title","Preview | %@"
+"engager_emailPreview_closeAlert_title","Are you sure you want to exit?"
+"engager_emailPreview_closeAlert_message","You have not sent the email. Would you still want to exit this view?"
+"engager_emailPreview_nextStep_button","NEXT STEP"
+"engager_emailPreview_send_button","SEND E-MAIL"
+"engager_emailPreview_sent_button","E-MAIL SENT"
+"engager_emailPreview_filtersTitle","Filters"
+"engager_emailPreview_step1Details_selectedContact","Contact selected"
+"engager_emailPreview_step1Details_selectedContacts","Contacts selected"
+"engager_emailPreview_step2ContentSection_title","E-mail content selected to be sent out:"
+"engager_emailPreview_step2ContactsSection_title","Contact(s) selected to receive e-mail:"
+"engager_emailPreview_step2ContentDetails_type","E-MAIL"
+"engager_emailPreview_step2Details_date","Date:"
+"engager_emailPreview_step2Details_email","Email:"
+"engager_emailPreview_step2Details_contact","Contact:"
