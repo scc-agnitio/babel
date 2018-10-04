@@ -34,4 +34,10 @@ class Term extends Model
     {
         return $this->belongsToMany(Platform::class);
     }
+
+    public function translations()
+    {
+        return $this->hasMany(Translation::class);
+    }
+
 }
