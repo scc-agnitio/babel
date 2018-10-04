@@ -14,4 +14,9 @@ class Translation extends Model
         return $this->belongsTo(Language::class, 'language_code', 'code');
     }
 
+    public function term()
+    {
+        return $this->belongsTo(Term::class);
+    }
+
 }
