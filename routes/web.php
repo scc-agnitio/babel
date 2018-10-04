@@ -25,17 +25,33 @@ Route::get('/translations', 'TranslationsController@index');
 
 Route::get('test', function () {
 
-    $translations = Translation::where('language_code', 'es')->get();
+    $platformCode = "ios";
+    $language = strtolower("Spanish");
+    $fileExtension = ".txt";
+    $fileName = $platformCode ."_" .  $language . $fileExtension;
+    $file = fopen($fileName, "w") or die("Unable to open file!");
+
+    // dd($fileName);
+
+    $translations = Translation::where('language_code', 'de')->get();
     $spanishTranlations = collect([]);
+
+
     $translations->each(function($translation) use ($spanishTranlations) {
         $spanishTranlations[] = [
             'key' => $translation->term->key,
             'text' => $translation->text,
         ];
 
+
     });
 
-    dd($spanishTranlations);
+    foreach($spanishTranlations as $line){
+        $data = $line["key"] . " = " .$line['text'] . "<br/>";
+        echo($data);
+    }
+
+    //dd($spanishTranlations);
 
 
 
@@ -47,3 +63,4 @@ Route::get('test', function () {
 Route::get('/home', function() {
     return view('home');
 });
+
